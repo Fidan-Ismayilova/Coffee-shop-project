@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="icon" href="./assets/images/logo.png" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Rubik:wght@500&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&family=Playfair+Display:wght@400;500&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Font Awsome -->
+    <script src="https://kit.fontawesome.com/5484ef70c0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container-fluid p-0 position-fixed container-nav" style="z-index: 100;">
+            <div class="row">
+                <div class="col-lg-2 nav-sect-1">
+                    <div class="logo-div">
+                        <a href="./index.html"><img src="./assets/images/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-10 nav-sect-2">
+                    <nav class="navbar navbar-light navbar-expand-lg">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav nav-sect-3">
+                            <li class="nav-item">
+                                <a href="./index.html" class="position-relative menu-nav">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./products.html" class="position-relative menu-nav">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./about.html" class="position-relative menu-nav">About Company</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./contact.html" class="position-relative menu-nav">Contacts</a>
+                            </li>
+                            <li class="nav-item-call">
+                                <button href="#" class="position-relative menu-nav call-back-link">Call us <i class="fas fa-phone"></i></button>
+                            </li>
+                        </ul>
+                    </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div id="callback-popup" class="popup">
+            <div class="callback-popup-content">
+                <span class="close"><i class="fas fa-times"></i></span>
+                <label for="callback-name-input"><img src="./assets/images/svg/user.svg" alt="" style="height: 25px;width: 35px;">Name</label>
+                <input id="callback-name-input" class="callback-input" type="text" />
+                <label for="callback-number-input"><img src="./assets/images/svg/phone-call.svg" alt="" style="height: 25px;width: 40px;"> Number</label>
+                <input id="callback-number-input" class="callback-input" type="number" />
+                <button id="callback-send-button">Send</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid container-contact">
+        <div class="bg-img">
+            <main class="contact-main mb-1">
+                <div class="row contact row ms-0 me-0 px-5">
+                    <div class="contact-1">
+                        <h1 class="text-center">Contacts</h1>
+                        <h3 class="text-center">
+                            <a href="./index.html">Main</a> / Contacts
+                        </h3>
+                    </div>
+                </div>
+                <div class="shape-divider">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M892.25 114.72L0 0 0 120 1200 120 1200 0 892.25 114.72z" class="shape-fill"></path>
+            </svg>
+                </div>
+            </main>
+        </div>
+    </div>
+    <div id="question" class="contact-3">
+        <div class="form row row ms-0 me-0">
+            <img class="col-lg-6 col-sm-12 mx-auto" src="./assets/images/svg/call.svg" alt="" />
+            <form class="col-lg-6 col-sm-12 mx-auto form-inner my-5">
+                <p class="text-center">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto eaque aliquid rerum eum tenetur sapiente esse quod laboriosam, dolor aperiam.
+                </p>
+                <!-- Form Name Input -->
+                <div class="form-div">
+                    <div class="form-name-div form-element name-form">
+                        <div class="img-div">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="input-div">
+                            <input id="name-input" class="border-0 common-input" type="text" placeholder="Your name" />
+                        </div>
+                    </div>
+                    <!-- Form Number Input -->
+                    <div class="form-number-div form-element number-form">
+                        <div class="img-div ms-1">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="input-div">
+                            <input id="number-input" class="border-0 common-input" type="number" placeholder="Enter your phone number" />
+                        </div>
+                    </div>
+                    <!-- Form Email Input -->
+                    <div class="form-email-div form-element email-form">
+                        <div class="img-div">
+                            <i class="far fa-envelope"></i>
+                        </div>
+                        <div class="input-div">
+                            <input id="email-input" class="border-0 common-input" type="email" placeholder="Enter your email" />
+                        </div>
+                    </div>
+                    <!-- Form Message TextArea -->
+                    <div class="form-message-div form-element message-form">
+                        <div class="textarea-img img-div">
+                            <i class="far fa-list-alt"></i>
+                        </div>
+                        <div class="message-textarea-div">
+                            <textarea id="message-textarea" class="mt-2 ms-1 common-input" placeholder="Your request or suggestion"></textarea>
+                        </div>
+                    </div>
+                    <button id="send-button" type="button" class="btn-form">
+              Send
+            </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="adres" class="contact-4 mb-5">
+        <div class="row contact-map row ms-0 me-0 px-5">
+            <div class="col-lg-12 col-sm-12 mx-auto">
+                <h1 class="text-center">Driving directions</h1>
+                <p class="text-center my-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, ex?
+                </p>
+                <p class="text-center my-3">
+                    <strong>Working hours:</strong> 09:00 until 18:00.
+                </p>
+                <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Moscow</a><a href="https://yandex.ru/maps/213/moscow/house/bolshaya_dorogomilovskaya_ulitsa_1/Z04YcwFjS0YEQFtvfXt1dHlnbQ==/?l=trf%2Ctrfe&ll=37.564094%2C55.745492&utm_medium=mapframe&utm_source=maps&z=17.23"
+                        style="color:#eee;font-size:12px;position:absolute;top:14px;">Большая Дорогомиловская улица, 1 — Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCU4vPQBHC" width="1000" height="600" frameborder="1" allowfullscreen="true"
+                        style="position:relative;"></iframe></div>
+            </div>
+        </div>
+    </div>
+    <div id="rekvizit" class="contact-2 mb-5 contact-rekvizit text-center">
+        <h1 class="text-center">Our details</h1>
+        <div class="contact-boxes row my-4">
+            <div class="card card-body card-box col-md-3 col-sm-12 mt-3 mb-2">
+                <div class="icon">
+                    <span><i class="fas fa-phone"></i></span>
+                </div>
+                <h4>Phone number</h4>
+                <p>
+                    <a class="phone" href="tel:84992499000">000-00-00</a><br />
+                    <a class="phone" href="tel:89299009009">000-00-00</a>
+                </p>
+            </div>
+            <div class="card card-body card-box col-md-3 col-sm-12 mt-3 mb-2">
+                <div class="icon">
+                    <span><i class="far fa-envelope"></i></span>
+                </div>
+                <h4>Email</h4>
+                <p>
+                    <a class="mail" href="mailto:someone@gmail.com">someone@gmail.com</a><br />
+                    <a class="mail" href="mailto:someone@gmail.com">spmeone@gmail.com</a>
+                </p>
+            </div>
+            <div class="card card-body card-box col-md-3 col-sm-12 mt-3 mb-2">
+                <div class="icon">
+                    <span><i class="fas fa-location-arrow"></i></span>
+                </div>
+                <h4>Adress</h4>
+                <p>
+                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, repellendus.
+                </p>
+            </div>
+        </div>
+
+    </div> 
+    <!-- Scroll Button -->
+    <button id="scrolltoTop"><i class="fas fa-arrow-up"></i></button>
+    <!-- Footer -->
+    <footer class="row ">
+        <!-- <section class="container-fluid "> -->
+        <div class="col-md-3 ">
+            <img src="./assets/images/logo.png " style="width: 100% " alt=" " />
+            <h3>Subscribe and get 30% promocode</h3>
+            <i class="fab fa-instagram "></i>
+            <i class="fab fa-facebook "></i>
+            <i class="fab fa-twitter "></i>
+            <i class="fab fa-linkedin-in "></i>
+        </div>
+        <div class="col-md-3 ">
+            <h2>INFORMATION</h2>
+            <div class="underline "></div>
+            <ul>
+                <li><a href="./contact.html#question ">Help to choose</a></li>
+                <li><a href="#">Delivery </a></li>
+                <li><a href="# ">Payment</a></li>
+                <li><a href="./index.html#question-main ">Ask a question </a></li>
+                <li><a href="./contact.html#question ">Get wholesale price </a></li>
+                <li><a href="./about.html#about ">About Company</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3 ">
+            <h2>Contacts</h2>
+            <div class="underline "></div>
+            <ul>
+                <li>
+                    <a href="./contact.html#adres ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, aliquid!
+              </a>
+                </li>
+                <li><a href="./contact.html#adres ">Driving directions</a></li>
+                <li><a href="./contact.html#question ">Ask a question </a></li>
+                <li><a href="./contact.html#question ">Cooperation </a></li>
+                <li><a href="./contact.html#adres ">Opening hours </a></li>
+            </ul>
+        </div>
+        <!-- Copyright -->
+        <div class="text-center copyright ">
+            <a class="text-dark " href="./index.html#etinat-stakan ">© ETINAT, 2022</a>
+        </div>
+    </footer>
+    <!-- Preloader -->
+    <div class="loader-wrapper">
+        <span class="loader"><img src="./assets/images/logo.png" alt="" /></span>
+    </div>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <!-- Script App -->
+    <script src="./assets/js/preloader.js"></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/validations.js"></script>
+    <script src="./assets/js/scroll.js"></script>
+</body>
+
+</html>
